@@ -20,7 +20,7 @@ export const Detail = ({button,name,module}:{button:string,name:string,module:st
       <DrawerDescription>{
           module.map((c,i)=>{
             return(
-              <ul>
+              <ul key={i}>
                   <li key={i}>{c}</li>
               </ul>
             )
