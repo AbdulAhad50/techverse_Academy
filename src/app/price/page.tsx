@@ -1,5 +1,3 @@
-// pages/PricingCards.jsx
-import { div } from "three/tsl";
 import PricingCard from "./card";
 
 const course = {
