@@ -17,9 +17,14 @@ const Nav = () => {
       {/* Desktop Menu */}
       <nav className="hidden md:block">
         <ul className="flex gap-[2rem] text-white font-medium">
+          <Link href={"/"}><li className="cursor-pointer hover:text-yellow-400">Home</li></Link>
+
           <Link href={"/courses"}><li className="cursor-pointer hover:text-yellow-400">Courses</li></Link>
+
           <Link href={"/price"}><li className="cursor-pointer hover:text-yellow-400">Pricing</li></Link>
-          <li className="cursor-pointer hover:text-yellow-400">Login</li>
+          
+          <Link href={"/signin"}><li className="cursor-pointer hover:text-yellow-400">Login</li></Link>
+          
           <li className="cursor-pointer hover:text-yellow-400">Sign up</li>
         </ul>
       </nav>
